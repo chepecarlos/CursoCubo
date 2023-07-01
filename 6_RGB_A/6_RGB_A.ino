@@ -19,7 +19,7 @@ void loop() {
   int NivelVerde = 0;
   int NivelAzul = 0;
 
-  analogWrite(NivelRojo, NivelRojo);
+  analogWrite(pinRojo, NivelRojo);
   analogWrite(pinVerde, NivelVerde);
   analogWrite(pinAzul, NivelAzul);
 
